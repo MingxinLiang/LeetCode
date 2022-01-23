@@ -145,4 +145,6 @@ ds = image_label_ds.apply(
 
 ds = ds.batch(BATCH_SIZE).prefetch(buffer_size=0)
 
-timeit(ds)
+#timeit(ds)
+
+# TFRecord
