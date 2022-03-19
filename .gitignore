@@ -2,3 +2,5 @@
 .DS_Store
 *.wav
 *data_*
+*Data/*
+*data/*
